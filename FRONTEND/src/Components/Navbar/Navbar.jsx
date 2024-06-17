@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="nav-logo">
             <img src={logo} alt="" />
-            <p>Name</p>
+            <p>E-Com</p>
         </div>
         <ul className="nav-menu">
             <li onClick={()=> {setMenu("home")}} >Home {menu === "home"?<hr/>:<></>}</li>
