@@ -30,6 +30,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .nav-menu li hr{
     width: 80%;
@@ -53,4 +54,18 @@
 
 .loginBtn:active{
     background-color: #d5d3d3;
+}
+
+.nav-cart-count{
+    width: 22px ;
+    height: 22px;
+    border-radius: 11px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -45px;
+
 }
