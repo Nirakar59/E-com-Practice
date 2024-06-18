@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '../assets/logo.png'
 import cart_icon from '../assets/cart_icon.png'
 import { useState } from 'react'
